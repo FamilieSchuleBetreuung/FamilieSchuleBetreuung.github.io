@@ -1,0 +1,13 @@
+# This is the MOST important setting for your custom domain
+baseURL = "https://familie-schule-betreuung.ch/"
+
+languageCode = "en-us"
+title = "Familie, Schule & Betreuung"
+
+# This tells Hugo to use the theme you just added
+theme = "mainroad"
+
+# You can add more theme-specific settings here.
+# For example, to add a description:
+[Params]
+  description = "Familie, Schule & Betreuung - Hand in Hand"
