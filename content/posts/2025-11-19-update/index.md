@@ -9,8 +9,6 @@ tags:
   - child_care
 ---
 
-# Bisher erreicht
-
 * WhatsApp Community gegründet, aktuell 285 Mitglieder
 * Projekt Streams aufgesetzt:
     * Stream 1: Taktik Gemeindeversammlung

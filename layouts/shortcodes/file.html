@@ -1,1 +1,8 @@
-{{ ($.Page.Resources.GetMatch (.Get 0)).RelPermalink }}
+{{ $match := .Get 0 }}
+{{ $res := $.Page.Resources.GetMatch $match }}
+
+{{ with $res }}
+  {{ .RelPermalink }}
+{{ else }}
+  {{ errorf "Shortcode 'file' could not find '%s' in page '%s'" $match $.Page.File.Path }}
+{{ end }}

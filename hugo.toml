@@ -27,3 +27,14 @@ theme = "mainroad"
   name = "Standpunkte"
   url = "/standpunkte/"
   weight = 30
+
+[[menu.main]]
+  name = "Über uns"
+  url = "/about_us/"
+  weight = 40
+
+
+  [[menu.main]]
+  name = "Beitreten"
+  url = "/beitreten/"
+  weight = 40
